@@ -1,0 +1,59 @@
+body {
+  font-size: 15pt;
+  margin: 0px;
+  padding: 0px;
+    background: linear-gradient(#AFB5F6,#AFF6E6);
+  height:100vh;
+
+}
+
+input {
+  width: 80%;
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+#con {
+  height: 70vh;
+  width: 98vw;
+  border: 3px solid black;
+  border-radius: 6px;
+  margin: auto;
+
+}
+
+.message {
+  background: #AFF6F3;
+  color: black;
+}
+
+.right {
+  float: right ;
+  border: 2px solid black;
+  border-radius: 6px;
+  clear: both;
+  margin-right: 12px;
+}
+
+
+
+.left {
+  float: left;
+  border: 2px solid black;
+  border-radius: 6px;
+  clear: both;
+  margin-left:12px
+
+
+}
+
+h3 {
+  text-align: center;
+}
+
+button {
+  border-radius: 6px;
+  background: #0E0F15;
+  color: white;
+  height: 35px
+}
