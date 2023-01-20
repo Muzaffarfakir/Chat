@@ -10,7 +10,7 @@ btn.addEventListener("click",(e)=>{
   socket.emit("send",mess);
   inp.value="";
 })
-let append(message,pos)=>{
+let append=(message,pos)=>{
   let mesEl=document.createElement("div");
   mesEl.innerText=message;
   mesEl.classList.add("message")
