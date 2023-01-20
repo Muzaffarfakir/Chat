@@ -1,4 +1,4 @@
-let socket=io("http://localhost:3000")
+let socket=io("https://chat-i73z.onrender.com")
 let btn=document.getElementById("btn")
 let inp=document.getElementById("inp")
 let con=document.getElementById("con")
