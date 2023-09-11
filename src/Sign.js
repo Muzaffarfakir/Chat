@@ -16,7 +16,7 @@ function Sign() {
 
         }
         else {
-            axios.post("http://localhost:8000/signData", { email, pass, name });
+            axios.post("https://chat-back-krto.onrender.com/signData", { email, pass, name });
             nav("/login")
         }
 
