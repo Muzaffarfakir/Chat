@@ -13,12 +13,12 @@ function Home() {
 
     let [cookies, SetCookies] = useCookies(["access_token"])
     let t = useRef();
-    let socket = io.connect("http://localhost:8000/", { transports: ["websocket", "polling"] });
+    let socket = io.connect("https://chat-back-krto.onrender.com/", { transports: ["websocket", "polling"] });
 
 
 
     function getdata() {
-        fetch("http://localhost:8000/allusers").then((res) => res.json()).then((data) => {
+        fetch("https://chat-back-krto.onrender.com/allusers").then((res) => res.json()).then((data) => {
             console.log(data)
             Setnames(data)
         })
@@ -34,7 +34,7 @@ function Home() {
 
     }
     function user(id) {
-        axios.post('http://localhost:8000/usersMessageaddToArray', { id, mess })
+        axios.post('https://chat-back-krto.onrender.com/usersMessageaddToArray', { id, mess })
 
 
     }
