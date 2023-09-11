@@ -1,0 +1,13 @@
+#side{
+    border: "2px solid black";
+    height: 90vh;
+    overflow-y: scroll;
+    width: 28vw;
+
+}
+.con{
+    border: "2px solid black";
+    height: 90vh;
+    width: 80vw;
+    margin: auto;
+}
