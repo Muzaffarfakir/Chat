@@ -14,7 +14,7 @@ function Login() {
     }
     function send() {
 
-        axios.post("http://localhost:8000/login", { name }).then((res) => {
+        axios.post("https://chat-back-krto.onrender.com/login", { name }).then((res) => {
             if (res.data.mess === "exist") {
                 setCookies("access_token", res.data.token)
                 window.localStorage.setItem("id", res.data.id);
