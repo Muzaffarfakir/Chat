@@ -1,7 +1,7 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Navbar.css"
-import { Link, BrowserRouter, Route, Routes, useNavigate, useLocation } from "react-router-dom"
+import { Link, BrowserRouter, Route, Routes, useNavigate, useLocation,HashRouter } from "react-router-dom"
 import Home from "./Home";
 import Login from "./Login";
 import Sign from "./Sign";
@@ -19,7 +19,7 @@ function Navbar() {
 
     return (
         <>
-            <BrowserRouter>
+            <HashRouter>
                 <nav>
                     <h6>McHatM</h6>
                     <ul>
@@ -64,7 +64,7 @@ function Navbar() {
 
                 </Routes>
 
-            </BrowserRouter >
+            </HashRouter >
 
             <hr />
 
